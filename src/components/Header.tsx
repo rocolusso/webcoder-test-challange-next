@@ -17,7 +17,7 @@ const Header = () => {
                         src={logo}
                         alt="heder-logo"
                         width={160}
-                        heigth={160}
+                        height={160}
                         priority={true}
                     />
                     <div className={'header_nav_block flex items-center gap-10 px-5'}>
