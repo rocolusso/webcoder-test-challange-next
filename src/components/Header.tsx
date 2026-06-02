@@ -46,14 +46,14 @@ const Header = () => {
                                 </li>
                             </ul>
                         </nav>
-                        <div className={'search_block flex gap-2'}>
+                        <div className={'search_block flex gap-4 pr-5'}>
                             <div>
                                 <Link href='#'>
                                     <Image
                                         src={searchLogo}
                                         alt='search-logo'
-                                        width={33}
-                                        height={33}
+                                        width={40}
+                                        height={40}
                                     />
                                 </Link>
                             </div>
@@ -62,8 +62,8 @@ const Header = () => {
                                     <Image
                                         src={like}
                                         alt='like'
-                                        width={33}
-                                        height={33}
+                                        width={40}
+                                        height={40}
                                     />
                                 </Link>
                             </div>
