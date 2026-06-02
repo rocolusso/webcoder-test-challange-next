@@ -52,8 +52,8 @@ const Header = () => {
                                     <Image
                                         src={searchLogo}
                                         alt='search-logo'
-                                        width={40}
-                                        height={40}
+                                        width={35}
+                                        height={35}
                                     />
                                 </Link>
                             </div>
@@ -62,8 +62,8 @@ const Header = () => {
                                     <Image
                                         src={like}
                                         alt='like'
-                                        width={40}
-                                        height={40}
+                                        width={35}
+                                        height={35}
                                     />
                                 </Link>
                             </div>
