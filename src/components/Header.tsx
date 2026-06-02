@@ -9,15 +9,15 @@ import { CiMenuFries } from "react-icons/ci";
 
 const Header = () => {
     return (
-        <header className={'heder_bg z-20 absolute left-0 right-0 top-0 opacity-70 h-25 flex items-center '}>
+        <header className={'heder_bg z-20 absolute left-0 right-0 top-0 opacity-70 h-[85px] flex items-center '}>
             <div className={'container mx-auto'}>
                 <div className={'header_logo flex justify-between items-center'}>
                     <Image
-                        className={'px-3 pt-3'}
+                        className={'pl-5 pt-2 scale-105'}
                         src={logo}
                         alt="heder-logo"
-                        width={218}
-                        height={218}
+                        width={180}
+                        height={180}
                         priority={true}
                     />
                     <div className={'header_nav_block flex items-center gap-10 px-5 z-25'}>
