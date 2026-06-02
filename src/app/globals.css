@@ -2,12 +2,25 @@
 
 
 
+/*@layer components {*/
+/*  .container {*/
+/*    max-width: 1440px !important;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin: 0 110px !important;*/
+/*  }*/
+/*}*/
 @layer components {
   .container {
-    max-width: 1440px !important;
-    display: flex;
-    flex-direction: column;
-    /*margin: 0 110px !important;*/
+    @apply mx-auto px-5;
+    max-width: 100%;
+  }
+
+  @media (min-width: 1440px) {
+    .container {
+      max-width: 1140px;
+      @apply mx-0;
+    }
   }
 }
 
