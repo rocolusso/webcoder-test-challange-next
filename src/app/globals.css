@@ -11,11 +11,37 @@
   }
 }
 
+@font-face {
+  font-family: OpenSansBold;
+  src: url('/fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: OpenSansRegular;
+  src: url('/fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
   background: #333333;
 }
 
 .heder_bg{
 background: rgba(51, 51, 51, 0.6)
+}
+
+.about_heading{
+  font-family: OpenSansBold;
+  font-weight: 700;
+  font-size: 52px;
+}
+.about_heading_regular{
+  font-family: OpenSansRegular;
+  font-weight: 400;
+  font-size: 18px;
 }
