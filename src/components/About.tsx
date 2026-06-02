@@ -19,7 +19,7 @@ const About = () => {
                     <h1 className="text-[3.25rem] font-bold ">
                         About Us
                     </h1>
-                    <p className="max-w-2xl text-[1.125rem] text-white max-w-[540px]">
+                    <p className="text-[1.125rem] text-white max-w-[540px]">
                         Lorem ipsum dolor sit amet. Id quasi assumenda non excepturi
                         rerum sed quia quasi sit velit ducimus! Quo quod nesciunt aut
                         omnis praesentium quo dignissimos reiciendis sit numquam delectus.
