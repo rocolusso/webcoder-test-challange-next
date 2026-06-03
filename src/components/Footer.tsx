@@ -3,16 +3,16 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className={'pt-20 pb-10'}>
+        <footer className={'pt-12 pb-10'}>
             <div className={'main_footer'}>
                 <div className={'container mx-auto'}>
                     <div className={'grid grid-cols-2 sm:grid-cols-6 gap-5 p-5'}>
 
                         <div className={'footer_item flex flex-col text-white'}>
-                            <h4 className={'text-[20px]'}>Products</h4>
-                            <ul className={'pt-5 flex flex-col'}>
+                            <h4 className={'text-[0.95rem] uppercase'}>Products</h4>
+                            <ul className={'pt-3 flex flex-col'}>
                                 <li>
-                                    <Link href={'# '}>
+                                    <Link href={'# '} className={''}>
                                         Ranges
                                     </Link>
                                 </li>
@@ -50,8 +50,8 @@ const Footer = () => {
                         </div>
 
                         <div className={'footer_item flex flex-col text-white'}>
-                            <h4 className={'text-[20px] font-bold'}>Product lines</h4>
-                            <ul className={'pt-5 flex flex-col'}>
+                            <h4 className={'text-[0.95rem] font-bold uppercase'}>Product lines</h4>
+                            <ul className={'pt-3 flex flex-col'}>
                                 <li>
                                     <Link href={'# '}>
                                         Professinonal Line
@@ -66,8 +66,8 @@ const Footer = () => {
                         </div>
 
                         <div className={'footer_item flex flex-col text-white'}>
-                            <h4 className={'text-[20px]'}>Help</h4>
-                            <ul className={'pt-5 flex flex-col'}>
+                            <h4 className={'text-[0.95rem] uppercase'}>Help</h4>
+                            <ul className={'pt-3 flex flex-col'}>
                                 <li>
                                     <Link href={'# '}>
                                         Customer Care
@@ -97,8 +97,8 @@ const Footer = () => {
                         </div>
 
                         <div className={'footer_item flex flex-col text-white'}>
-                            <h4 className={'text-[20px]'}>About</h4>
-                            <ul className={'pt-5 flex flex-col'}>
+                            <h4 className={'text-[0.95rem] uppercase'}>About</h4>
+                            <ul className={'pt-3 flex flex-col'}>
                                 <li>
                                     <Link href={'# '}>
                                         About the Company
@@ -133,8 +133,8 @@ const Footer = () => {
                         </div>
 
                         <div className={'footer_item flex flex-col text-white'}>
-                            <h4 className={'text-[20px]'}>Tools</h4>
-                            <ul className={'pt-5 flex flex-col'}>
+                            <h4 className={'text-[0.95rem] uppercase'}>Tools</h4>
+                            <ul className={'pt-3 flex flex-col'}>
                                 <li>
                                     <Link href={'# '}>
                                         Reserved Area
@@ -149,8 +149,8 @@ const Footer = () => {
                         </div>
 
                         <div className={'footer_item flex flex-col text-white'}>
-                            <h4 className={'text-[20px]'}>Follow Us</h4>
-                            <ul className={'pt-5 flex flex-col'}>
+                            <h4 className={'text-[0.95rem] uppercase'}>Follow Us</h4>
+                            <ul className={'pt-3 flex flex-col'}>
                                 <li>
                                     <Link href={'# '}>
                                         Reserved Area
@@ -167,30 +167,30 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className={'container mx-auto mt-20'}>
+                <div className={'container mx-auto mt-15 mb-5'}>
                     <div className={'border border-white'}></div>
                 </div>
                 <div className={'sub_footer'}>
                     <div className={'container mx-auto'}>
-                        <div className={'p-5 flex sm:justify-end items-center'}>
-                            <ul className={' mt-10 text-white flex flex-col sm:flex-row gap-5'}>
+                        <div className={'px-2 flex sm:justify-end items-center'}>
+                            <ul className={' text-white flex flex-col sm:flex-row gap-5'}>
                                 <li>
-                                    <Link href={'# '} className='capitalize'>
+                                    <Link href={'# '} className='uppercase text-[0.75rem]'>
                                         @ 2018 Fulgor Milano
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href={'#'} className='capitalize'>
+                                    <Link href={'#'} className='uppercase text-[0.75rem]'>
                                         Legal Terms
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href={'# '} className='capitalize'>
+                                    <Link href={'# '} className='uppercase text-[0.75rem]'>
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href={'#'} className='capitalize font-bold'>
+                                    <Link href={'#'} className='uppercase text-[0.75rem] font-bold'>
                                        Made in Nextep
                                     </Link>
                                 </li>
