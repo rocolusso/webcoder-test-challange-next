@@ -13,11 +13,11 @@ const Header = () => {
             <div className={'container mx-auto'}>
                 <div className={'header_logo flex justify-between items-center'}>
                     <Image
-                        className={'pl-5 pt-2 scale-105'}
+                        className={'pl-8 pt-2'}
                         src={logo}
                         alt="heder-logo"
-                        width={180}
-                        height={180}
+                        width={190}
+                        height={190}
                         priority={true}
                     />
                     <div className={'header_nav_block flex items-center gap-10 px-5 z-25'}>
