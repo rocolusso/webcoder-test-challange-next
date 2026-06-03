@@ -4,7 +4,7 @@ import like from "./../../public/img/like.svg"
 import SearchTrigger from "@/components/SearchTrigger";
 import Image from "next/image";
 import Link from "next/link";
-import { CiMenuFries } from "react-icons/ci";
+import BurgerMenu from "@/components/BurgerMenu";
 
 
 const Header = () => {
@@ -46,7 +46,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </nav>
-                        <div className={'search_block flex gap-4 pr-7'}>
+                        <div className={'search_block flex gap-4 sm:pr-7'}>
                             <div className={'hidden sm:block'}>
                                 <SearchTrigger />
                             </div>
@@ -60,14 +60,7 @@ const Header = () => {
                                     />
                                 </Link>
                             </div>
-                            <div className={'sm:hidden burger_menu'}>
-                                <Link href='#'>
-                                    <CiMenuFries
-                                        color={'white'}
-                                        size={33}
-                                    />
-                                </Link>
-                            </div>
+                            <BurgerMenu />
                         </div>
 
                     </div>
