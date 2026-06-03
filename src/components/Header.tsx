@@ -21,32 +21,32 @@ const Header = () => {
                         priority={true}
                     />
                     <div className={'header_nav_block flex items-center gap-10 px-5 z-25'}>
-                        <nav className={'hidden sm:block px-5'}>
-                            <ul className={'flex gap-8'}>
+                        <nav className={'hidden sm:block px-2'}>
+                            <ul className={'flex gap-6'}>
                                 <li>
-                                    <Link href='#' className={'text-white text-[1.5rem]'}>
+                                    <Link href='#' className={'text-white text-[1.5rem] header_nav_heading'}>
                                         Our Brand
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#' className={'text-white text-[1.5rem]'}>
+                                    <Link href='#' className={'text-white text-[1.5rem]  header_nav_heading'}>
                                         Products
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#' className={'text-white text-[1.5rem]'}>
+                                    <Link href='#' className={'text-white text-[1.5rem]  header_nav_heading'}>
                                         Contact
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link href='#' className={'text-white text-[1.5rem]'}>
-                                        Download
+                                    <Link href='#' className={'text-white text-[1.5rem]  header_nav_heading'}>
+                                        Downloads
                                     </Link>
                                 </li>
                             </ul>
                         </nav>
-                        <div className={'search_block flex gap-4 pr-5'}>
+                        <div className={'search_block flex gap-4 pr-7'}>
                             <div>
                                 <Link href='#'>
                                     <Image
