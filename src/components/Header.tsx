@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './../../public/img/logo.png'
-import searchLogo from "./../../public/img/search.svg"
 import like from "./../../public/img/like.svg"
+import SearchTrigger from "@/components/SearchTrigger";
 import Image from "next/image";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
@@ -47,16 +47,7 @@ const Header = () => {
                             </ul>
                         </nav>
                         <div className={'search_block flex gap-4 pr-7'}>
-                            <div>
-                                <Link href='#'>
-                                    <Image
-                                        src={searchLogo}
-                                        alt='search-logo'
-                                        width={35}
-                                        height={35}
-                                    />
-                                </Link>
-                            </div>
+                            <SearchTrigger />
                             <div>
                                 <Link href='#'>
                                     <Image
