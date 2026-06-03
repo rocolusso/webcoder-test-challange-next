@@ -46,9 +46,11 @@ const Header = () => {
                                 </li>
                             </ul>
                         </nav>
-                        <div className={'search_block  gap-4 pr-7 hidden sm:flex'}>
-                            <SearchTrigger />
-                            <div>
+                        <div className={'search_block flex gap-4 pr-7'}>
+                            <div className={'hidden sm:block'}>
+                                <SearchTrigger />
+                            </div>
+                            <div className={'hidden sm:block'}>
                                 <Link href='#'>
                                     <Image
                                         src={like}
