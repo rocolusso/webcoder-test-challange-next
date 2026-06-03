@@ -12,7 +12,7 @@ const Services = () => {
 
                      <div className='item_block py-20 flex flex-row flex-wrap items-center gap-18' >
                          <div className={'flex justify-center'}>
-                             <div className={'pl-10'}>
+                             <div className={'pl-12'}>
                                  <Image
                                      className={'item_img'}
                                      src={serviceItemImg}
@@ -34,14 +34,14 @@ const Services = () => {
 
                      <div className='item_block py-5 flex flex-row flex-wrap items-center gap-18' >
                          <div className={'px-5 item_description text-white flex flex-col justify-center w-full sm:max-w-[560px]'}>
-                             <p className={'pt-6 services_heading_paragraph'}>
+                             <p className={'pt-6 services_heading_paragraph ml-7'}>
                                  Lorem ipsum dolor sit amet. Id quasi assumenda non excepturi rerum sed quia quasi
                                  sit velit ducimus! Quo quod nesciunt aut omnis praesentium quo dignissimos
                                  reiciendis sit numquam delectus.
                              </p>
                          </div>
                          <div className={'flex justify-center'}>
-                             <div className={'ml-5'}>
+                             <div className={'ml-6'}>
                                  <Image
                                      className={'item_img'}
                                      src={aboutBg}
@@ -56,7 +56,7 @@ const Services = () => {
 
                      <div className='item_block py-20 flex flex-row flex-wrap items-center gap-18' >
                          <div className={'flex justify-center'}>
-                             <div className={'ml-10'}>
+                             <div className={'ml-12'}>
                                  <Image
                                      className={'item_img'}
                                      src={aboutBg}
@@ -66,7 +66,7 @@ const Services = () => {
                                  />
                              </div>
                          </div>
-                         <div className={'px-5 item_description text-white flex flex-col justify-center w-full sm:max-w-[560px]'}>
+                         <div className={' item_description text-white flex flex-col justify-center w-full sm:max-w-[560px]'}>
                              <p className={'pt-6 services_heading_paragraph'}>
                                  Lorem ipsum dolor sit amet. Id quasi assumenda non excepturi rerum sed quia quasi
                                  sit velit ducimus! Quo quod nesciunt aut omnis praesentium quo dignissimos
@@ -77,14 +77,14 @@ const Services = () => {
 
                      <div className='item_block py-5 flex flex-row flex-wrap items-center gap-18' >
                          <div className={'px-5 item_description text-white flex flex-col justify-center w-full sm:max-w-[560px]'}>
-                             <p className={'pt-6 services_heading_paragraph'}>
+                             <p className={'pt-6 services_heading_paragraph ml-6'}>
                                  Lorem ipsum dolor sit amet. Id quasi assumenda non excepturi rerum sed quia quasi
                                  sit velit ducimus! Quo quod nesciunt aut omnis praesentium quo dignissimos
                                  reiciendis sit numquam delectus.
                              </p>
                          </div>
                          <div className={'flex justify-center'}>
-                             <div className={'ml-5'}>
+                             <div className={'ml-6'}>
                                  <Image
                                      className={'item_img'}
                                      src={aboutBg}
@@ -97,8 +97,8 @@ const Services = () => {
                      </div>
 
                  </div>
-                <div className={'border border-white mt-20 overflow-hidden'}/>
-                <div className={'py-20 flex flex-col items-center'}>
+                <div className={'border border-white mt-16  overflow-hidden'}/>
+                <div className={'py-20 mt-4 flex flex-col items-center'}>
                     <Image
                         className={'video_img'}
                         src={videoImg}
