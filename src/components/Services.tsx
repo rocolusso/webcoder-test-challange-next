@@ -3,6 +3,7 @@ import aboutBg from "../../public/img/about_bg.jpg";
 import Image from "next/image";
 import serviceItemImg from './../../public/img/img-item-1.png'
 import videoImg from './../../public/img/video-img.png'
+import YouTubeVideoPlayer from '@/components/YouTubeVideoPlayer';
 
 const Services = () => {
     return (
@@ -99,13 +100,7 @@ const Services = () => {
                  </div>
                 <div className={'border border-white mt-16  overflow-hidden'}/>
                 <div className={'pt-20 mt-4 flex flex-col items-center'}>
-                    <Image
-                        className={'video_img'}
-                        src={videoImg}
-                        alt="video-img"
-                        width={980}
-                        height={980}
-                    />
+                    <YouTubeVideoPlayer previewSrc={videoImg} previewAlt="video-img" />
                 </div>
 
             </div>
