@@ -98,7 +98,7 @@ const Services = () => {
 
                  </div>
                 <div className={'border border-white mt-16  overflow-hidden'}/>
-                <div className={'py-20 mt-4 flex flex-col items-center'}>
+                <div className={'pt-20 mt-4 flex flex-col items-center'}>
                     <Image
                         className={'video_img'}
                         src={videoImg}
