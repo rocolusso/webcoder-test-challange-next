@@ -14,8 +14,8 @@ const About = () => {
                 className="object-cover"
             />
             <div className="absolute inset-0 bg-black/50" />
-            <div className="container mx-auto relative z-10 pt-35">
-                <div className="max-w-6xl px-6 text-white ">
+            <div className="container relative z-10 pt-35">
+                <div className="text-white">
                     <h1 className="text-[3.25rem] about_heading">
                         About Us
                     </h1>

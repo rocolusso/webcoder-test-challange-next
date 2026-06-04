@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer className={'pt-12 pb-10'}>
             <div className={'main_footer'}>
-                <div className={'container mx-auto'}>
-                    <div className={'grid grid-cols-2 sm:grid-cols-6 gap-5 p-5'}>
+                <div className="container">
+                    <div className="grid grid-cols-2 sm:grid-cols-6 gap-5">
 
                         <div className={'footer_item flex flex-col text-white'}>
                             <h4 className={'text-[0.95rem] uppercase'}>Products</h4>
@@ -167,12 +167,12 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className={'container mx-auto mt-15 mb-5'}>
+                <div className="container mt-15 mb-5">
                     <div className={'border border-white'}></div>
                 </div>
                 <div className={'sub_footer'}>
-                    <div className={'container mx-auto'}>
-                        <div className={'px-2 flex sm:justify-end items-center'}>
+                    <div className="container">
+                        <div className="flex sm:justify-end items-center">
                             <ul className={' text-white flex flex-col sm:flex-row gap-5'}>
                                 <li>
                                     <Link href={'# '} className='uppercase text-[0.75rem]'>
