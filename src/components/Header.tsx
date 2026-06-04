@@ -16,8 +16,8 @@ const Header = () => {
                         className="pt-2"
                         src={logo}
                         alt="heder-logo"
-                        width={190}
-                        height={190}
+                        width={157}
+                        height={157}
                         priority={true}
                     />
                     <div className="header_nav_block flex items-center gap-10 z-25">
@@ -46,7 +46,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </nav>
-                        <div className="search_block flex gap-4">
+                        <div className="search_block flex gap-4 sm:pr-5 sm:pt-2">
                             <div className={'hidden sm:block'}>
                                 <SearchTrigger />
                             </div>
