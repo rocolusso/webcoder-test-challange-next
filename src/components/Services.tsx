@@ -11,7 +11,7 @@ const Services = () => {
             <div className="container">
                  <div className={'flex justify-center flex-col'}>
 
-                     <div className='item_block mx-[20px] py-20 flex flex-row justify-between flex-wrap' >
+                     <div className="item_block mx-[20px] py-20 flex flex-col sm:flex-row justify-between gap-8">
                          <div className="flex justify-center">
                              <div>
                                  <Image
@@ -35,7 +35,7 @@ const Services = () => {
                          </div>
                      </div>
 
-                     <div className='item_block mx-[20px] py-5 flex flex-row justify-between flex-wrap' >
+                     <div className="item_block mx-[20px] py-5 flex flex-col-reverse sm:flex-row justify-between gap-8">
                          <div className="item_description text-white flex flex-col justify-center">
                              <div>
                                  <p className={'pt-9 max-w-[32rem] services_heading_paragraph'}>
@@ -46,7 +46,7 @@ const Services = () => {
                              </div>
                          </div>
                          <div className="flex justify-center">
-                             <div className={'pt-10 sm:pt-0'}>
+                             <div>
                                  <Image
                                      className={'item_img'}
                                      src={aboutBg}
@@ -61,7 +61,7 @@ const Services = () => {
 
 
 
-                     <div className='item_block mx-[20px] py-18 flex flex-row justify-between flex-wrap' >
+                     <div className="item_block mx-[20px] py-18 flex flex-col sm:flex-row justify-between gap-8">
                          <div className="flex justify-center">
                              <div>
                                  <Image
@@ -85,7 +85,7 @@ const Services = () => {
                      </div>
 
 
-                     <div className='item_block mx-[20px] py-7 flex flex-row justify-between flex-wrap' >
+                     <div className="item_block mx-[20px] py-7 flex flex-col-reverse sm:flex-row justify-between gap-8">
                          <div className="item_description text-white flex flex-col justify-center">
                              <div>
                                  <p className={' max-w-[30rem] services_heading_paragraph'}>
@@ -96,7 +96,7 @@ const Services = () => {
                              </div>
                          </div>
                          <div className="flex justify-center">
-                             <div className={'pt-10 sm:pt-0'}>
+                             <div>
                                  <Image
                                      className={'item_img'}
                                      src={aboutBg}
