@@ -21,7 +21,7 @@ const Header = () => {
                         priority={true}
                     />
                     <div className="header_nav_block flex items-center gap-10 z-25">
-                        <nav className="hidden sm:block">
+                        <nav className="hidden lg:block">
                             <ul className={'flex gap-6'}>
                                 <li>
                                     <Link href='#' className={'text-white text-[1.5rem] header_nav_heading'}>

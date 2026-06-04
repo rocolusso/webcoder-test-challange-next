@@ -84,7 +84,7 @@ const BurgerMenu = () => {
         );
 
     return (
-        <div className="burger_menu relative sm:hidden">
+        <div className="burger_menu relative lg:hidden">
             <button
                 type="button"
                 className="cursor-pointer"
